@@ -14,13 +14,13 @@
 		F3D22EA619B776E100421516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D22EA519B776E100421516 /* main.m */; };
 		F3D22EAA19B776E100421516 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D22EA919B776E100421516 /* TCAppDelegate.m */; };
 		F3D22EAD19B776E100421516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D22EAB19B776E100421516 /* Main.storyboard */; };
-		F3D22EB019B776E100421516 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D22EAF19B776E100421516 /* TCViewController.m */; };
 		F3D22EB219B776E100421516 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D22EB119B776E100421516 /* Images.xcassets */; };
 		F3D22EB919B776E100421516 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D22EB819B776E100421516 /* XCTest.framework */; };
 		F3D22EBA19B776E100421516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D22E9919B776E100421516 /* Foundation.framework */; };
 		F3D22EBB19B776E100421516 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D22E9D19B776E100421516 /* UIKit.framework */; };
 		F3D22EC319B776E100421516 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D22EC119B776E100421516 /* InfoPlist.strings */; };
 		F3D22EC519B776E100421516 /* UITableViewControllerChalengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D22EC419B776E100421516 /* UITableViewControllerChalengeSolutionTests.m */; };
+		F3D22ED019B7784D00421516 /* TCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D22ECF19B7784D00421516 /* TCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		F3D22EA819B776E100421516 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
 		F3D22EA919B776E100421516 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
 		F3D22EAC19B776E100421516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3D22EAE19B776E100421516 /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
-		F3D22EAF19B776E100421516 /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
 		F3D22EB119B776E100421516 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F3D22EB719B776E100421516 /* UITableViewControllerChalengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChalengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D22EB819B776E100421516 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F3D22EC019B776E100421516 /* UITableViewControllerChalengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChalengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		F3D22EC219B776E100421516 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3D22EC419B776E100421516 /* UITableViewControllerChalengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChalengeSolutionTests.m; sourceTree = "<group>"; };
+		F3D22ECE19B7784D00421516 /* TCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCTableViewController.h; path = ../TCTableViewController.h; sourceTree = "<group>"; };
+		F3D22ECF19B7784D00421516 /* TCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCTableViewController.m; path = ../TCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				F3D22EA819B776E100421516 /* TCAppDelegate.h */,
 				F3D22EA919B776E100421516 /* TCAppDelegate.m */,
 				F3D22EAB19B776E100421516 /* Main.storyboard */,
-				F3D22EAE19B776E100421516 /* TCViewController.h */,
-				F3D22EAF19B776E100421516 /* TCViewController.m */,
+				F3D22ECE19B7784D00421516 /* TCTableViewController.h */,
+				F3D22ECF19B7784D00421516 /* TCTableViewController.m */,
 				F3D22EB119B776E100421516 /* Images.xcassets */,
 				F3D22EA019B776E100421516 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D22EB019B776E100421516 /* TCViewController.m in Sources */,
 				F3D22EA619B776E100421516 /* main.m in Sources */,
+				F3D22ED019B7784D00421516 /* TCTableViewController.m in Sources */,
 				F3D22EAA19B776E100421516 /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

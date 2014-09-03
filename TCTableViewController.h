@@ -1,5 +1,5 @@
 //
-//  TCViewController.h
+//  TCTableViewController.h
 //  UITableViewControllerChalengeSolution
 //
 //  Created by Tarik Capar on 03/09/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TCViewController : UIViewController
+@interface TCTableViewController : UITableViewController
 
 @end
